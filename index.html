@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HM Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="sidebar">
+    <div class="sidebar-header">💬 User Online</div>
+    <div class="user-list" id="userList">
+      <div class="user active">Global Chat</div>
+    </div>
+  </div>
+
+  <div class="chat">
+    <div class="chat-header">Global Chat</div>
+    <div class="chat-messages" id="chatMessages"></div>
+    <div class="chat-input">
+      <input type="text" id="username" placeholder="Nama kamu...">
+      <input type="text" id="messageInput" placeholder="Ketik pesan...">
+      <button id="sendBtn">Kirim</button>
+    </div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html> 

@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
 import { getDatabase, ref, push, onChildAdded } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-database.js";
 
-// === CONFIG FIREBASE ===
+// === KONFIGURASI FIREBASE ===
 const firebaseConfig = {
   apiKey: "AIzaSyD-TJQjlc3-5l4IcrxMu8RNSh-WBIjhMrA",
   authDomain: "notifikasihmmodz.firebaseapp.com",
